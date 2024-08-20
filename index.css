@@ -14,4 +14,17 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+/* CSS para centrar y dar estilo al PDF */
+.pdf-container {
+    width: 100%;
+    height: 600px; /* Puedes ajustar la altura según tus necesidades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
 
+embed {
+    width: 100%;
+    height: 100%;
+}
